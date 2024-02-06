@@ -13,10 +13,8 @@ public class RabbitMqConfig {
 
     @Value("${rabbitmq.queue.name}")
     private String queueName;
-
     @Value("${rabbitmq.exchange.name}")
     private String exchangeName;
-
     @Value("${rabbitmq.routing.key}")
     private String routingKey;
 

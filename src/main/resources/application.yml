@@ -7,3 +7,9 @@ spring:
     stream:
       username: guest
       password: guest
+
+rabbitmq:
+  queue:
+    name: rabbit_queue
+  exchange:
+    name: rabbit_exchange

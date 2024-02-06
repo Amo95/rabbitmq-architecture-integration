@@ -13,3 +13,5 @@ rabbitmq:
     name: rabbit_queue
   exchange:
     name: rabbit_exchange
+  routing:
+    key: rabbit_mq_routing_key
